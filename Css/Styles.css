@@ -1,0 +1,359 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.contenedor {
+    width:90%;
+    max-width: 1280px;
+    margin: auto;
+}
+header {
+    background-image: url(../imagenes/ondas.png), linear-gradient(237deg,#46b3ff 0%,#0752fe 100%); 
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 860px;
+}
+
+.menu {
+    background: #fff;
+    padding: 9px 20px;
+}
+
+.menu .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+header .logo {
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 25px;
+}
+nav ul li a {
+    text-decoration: none;
+    color:#000;
+}
+header .contenedor-Inicio {
+    display: flex;
+    justify-content: center;
+    margin: 9vh 0;
+
+}
+header .titular, header .imagen {
+    width: 40%;
+}
+
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 52px;
+    text-shadow: 1px 2px 50px 0 0;
+}
+
+header p  {
+    color: rgb(39, 48, 78);
+    line-height: 30px;
+}
+
+header img {
+    width: 90%;
+}
+ 
+
+ .boton {
+     background: #253547;
+     color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    box-shadow: 0px 20px 30px 0px rgba(0,0,0,0,);
+    margin-top: 20px;
+    box-shadow: 0px 20px 30px 0px rgba(0,0,0,0.2);
+    margin-top: 15px;
+    display: inline-block;
+    border-radius: 5px;
+ }
+.dominios {
+    display: flex;
+    align-items: center;
+}
+.dominios li {
+    list-style: none;
+    margin: 0 3px;
+}
+
+span.punto {
+    color: #1776ff;
+    font-size: 30px ;
+    margin-right: 2px;
+    margin-left: 40px;
+}
+span.dominio {
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+}
+span.anio {
+    color: #999;
+    font-size: 20px;
+    margin-right: 20px;
+}
+/* Seccion de servicios*/
+#services {
+padding: 120px;
+}
+#services .contenedor{
+display:flex;
+justify-content: space-around ;
+}
+#services .titular {
+    width: 49%;
+}
+#services .service{
+
+    width: 25%;
+    background-color: #fff;
+    box-shadow: 0px 90px 160px 0px rgba(0,0,0,0.2);
+    border-radius: 24px 24px 24px 24px;
+    padding: 20px 30px;
+    margin: 50px;
+}
+
+#services h2, #pricing h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #ff8f00;
+    letter-spacing: 1px;
+
+}
+
+#services h3, #pricing h3 {
+    font-weight: 500px;
+    font-size: 38px;
+}
+
+#services .boton{
+    width: 70px;
+    height: 35px;
+    background: #2970fa;
+    /*padding: 20px 30px;*/
+    letter-spacing: 1px;
+    margin: 20px ;
+}
+
+.titular .boton {
+    font-size: 15px;
+    text-align: center;
+}
+.service p{
+    color:#787878;
+    font-size: 15px;
+    line-height: 32px;
+}
+.service a {
+    width: auto;
+    height: auto;
+    color: #2970fa;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+.contenedor-services-2 {
+    margin-top: 60px;
+}
+
+.contenedor-services-2 #dos {
+    position: relative;
+    top: -200px;   
+}
+
+.service #uno {
+     margin-left:152px;
+}
+/*PRICING*/
+#pricing {
+    padding: 90px;
+}
+
+#pricing h2, #pricing h3 {
+    text-align: center;
+    margin: 0px;
+
+}
+#princig h3 {
+    font-weight: bold;
+}
+
+.contenedor-precios {
+    display: flex;
+    justify-content: space-around;
+
+}
+#pricing .tabla{
+    background: #fff;
+    border-radius: 24px;
+    box-shadow: 0px 90px 160px 0px rgba(0,0,0,0.2);
+    padding: 20px 59px;
+}
+#pricing .tabla li:nth-child(1){
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff8f00;
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: -21px;
+}
+#pricing .tabla .dolar {
+    position: absolute;
+    margin: 10px;
+    width: 300px;
+    color:#999;
+    font-size: 18px;
+}
+
+#pricing .tabla .numero {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 14px;
+}
+#pricing .mes {
+    color: #999;
+}
+#pricing .tabla li:nth-child(2){
+    list-style: none;
+    margin-bottom: 48px;
+    margin-left: -21px;
+}
+#pricing .item {
+    color: #ff8f00;
+    margin-bottom: 27px;
+}
+#pricing  #two .item {
+    color: #296ffa;
+}
+
+#pricing  .item span {
+    color: #666;
+}
+
+
+#pricing #two li:nth-child(1) {
+    color: #296ffa;
+}
+#pricing  #three .item {
+    color: #2acf8d;
+}
+   
+#pricing #three li:nth-child(1) {
+    color: #2acf8d;
+}
+
+#pricing #one a {
+    color: #ff8f00;
+    background: rgba(255,143,0,0.1);
+}
+#pricing  #two a {
+    color: #fff;
+    background: #296ffa;
+}
+#pricing #three a  {
+    color: #29cf8d;
+    background:rgba(41,207,141,0.1);
+}
+
+#pricing .hidden {
+    color:#ccc;
+}
+#pricing .tabla{
+    position: relative;
+}
+#pricing hr {
+    position: absolute;
+    top: 151px;
+    left: 0;
+    width: 100%;
+    border-color: #2423230d;
+}
+
+
+/* OUR FEATURES*/
+
+#features {
+    padding-top: 90px;
+
+}
+#features h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-transform:uppercase;
+    font-size: 14px;
+    color: #ff8f00;
+    letter-spacing: 1px;
+}
+
+#features h3 {
+    font-weight: bold;
+    font-size: 38px;
+    margin: 0;
+}
+#features p {
+   color: #665;
+   line-height: 33px;
+}
+#features .contenedor {
+    display: flex;
+    justify-content: center;
+    max-width: 1100px;
+    padding-bottom: 40px;
+}
+#features .titular {
+    width: 40%;
+    margin-right: 77px;
+}
+
+#features .imagen{
+    width: 49%;
+}
+#features .imagen img{
+    width: 100%;
+}
+.contenedor-features-2{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #cccccc6b;
+    padding-top: 40px;
+}
+.features-1, .features-2{
+    display: flex;
+    flex-wrap: wrap;
+} 
+.feature {
+    width: 30%;
+    margin: auto;
+}
+
+.features ul {
+    display: flex;
+    padding: 0;
+}
+.feature li{
+    list-style: none;
+}
+.feature li:nth-child(2){
+    margin-left: 20px;
+    color: #665;
+    font-size: 14px;
+    line-height: 30px;
+}
